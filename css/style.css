@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+
+:root{
+	--color-negro:#282d33;
+	--color-gris: #777;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+body{
+font-family:"Catamaran", sans-serif;
+font-size: 14px;
+}
+
+header{
+	background-color: #fff;
+}
+
+#intro{
+	padding: 3% 0;
+}
+
+ h3{
+font-family: "Catamaran", sans-serif;
+color: var(--color-negro);		
+	
+}
+
+p{
+	color: var(--color-gris);
+	margin-bottom: 40px;
+}
+
+#hero-slides p{
+	color: #FFFFFF;
+}
+
+#services{
+	padding: 5% 0;
+}
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 50px 0;
+	color: #fff;
+	margin: 30px 200px;
+}
+
+#cta h2{
+	color: #FFFFFF;
+}
+
+
+#cta p{
+	color: #FFFFFF;
+}
+
+#clients{
+	padding: 5% 0;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
